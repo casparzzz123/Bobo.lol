@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+.loginbox{
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    background-color: black;
+    border-radius: 3px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+  }
+
+  body {
+      font-family: sans-serif;
+  }
+
+.dropdown-button {
+    background-color: #1e1e24;
+    height: 80px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.logo {
+    color:  wheat;
+    font-size: 30px;
+}
+
+.boosting-text{
+    color: wheat;
+    font-size: 20;
+}
+
+.dropdown-button ul {
+    list-style: none;
+    display: flex;
+}
+
+.dropdown-button ul li {
+    padding: 10px 30px;
+}
+
+.dropdown-button ul li a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 20;
+}
+
+.dropdown-button ul li a:hover {
+    color: #6649b8;
+}
+
+.boosting-menu {
+align-items: center;
+width: 420px;
+height: 250px;
+margin: auto;
+background-color: grey;
+border-radius: 5px;
+
+}
+
+.flood-ip-text {
+    color: wheat;
+    font-size: 15;
+}
+
+.flood-btn {
+    color: grey;
+    font-size: 15;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    color: bisque;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.header ul li a:hover,
+.header ul li a.active {
+    background-color: white;
+    color: #6649b8;
+}
+
+.container .selection {
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.blob {
+    position: absolute;
+    
+}
